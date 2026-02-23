@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { createPlatformObject } from "@/utils/types/platforms";
+import { createPlatformObject } from "@/src/utils/types/platforms";
 
 export const SelectorsSchema = z.object({
   video: z.object({
