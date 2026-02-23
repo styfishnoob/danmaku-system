@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { createPlatformObject } from "@/src/utils/types/platforms";
+import { createPlatformObject } from "@/utils/types/platforms";
 
 export const SettingsSchema = z.object({
   enable: createPlatformObject(z.boolean()).default({
